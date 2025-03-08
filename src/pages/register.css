@@ -1,0 +1,20 @@
+.spinner {
+    width: 30px;
+    height: 30px;
+    border: 4px solid #ddd;
+    border-top: 4px solid blue;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    padding: 5px;
+    margin: 10px;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .text-green{
+    color: #28a475;
+  }
+  .text-red{
+    color:#dc3545
+  }
